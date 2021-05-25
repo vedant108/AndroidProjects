@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News Gateway</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+</resources>
