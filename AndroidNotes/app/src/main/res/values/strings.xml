@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidNotes</string>
+    <string name="enter_titile_for_note">Enter Titile for Note</string>
+    <string name="enter_note_content">Enter Note Content</string>
+    <string name="android_notes">Android Notes</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="about">about</string>
+    <string name="add">add</string>
+    <string name="save">save</string>
+    <string name="textview">TextView</string>
+    <string name="_2021_vedant_suram">© 2021, Vedant Suram</string>
+</resources>
