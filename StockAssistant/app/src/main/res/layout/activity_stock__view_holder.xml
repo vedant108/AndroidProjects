@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/symbolview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/symbolview"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/companynameview"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/companynameview"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/priceview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/symbolview" />
+
+    <TextView
+        android:id="@+id/priceview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="205dp"
+        android:text="@string/priceview"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/symbolview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/symbolview"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/changepercentview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/changepercentview"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/priceview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/priceview"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/changeprice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:text="@string/arrow"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/priceview"
+        app:layout_constraintEnd_toStartOf="@+id/changepercentview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

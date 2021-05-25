@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stock Watch</string>
+    <string name="textview">TextView</string>
+    <string name="newitem">newitem</string>
+    <string name="symbolview">symbolview</string>
+    <string name="companynameview">companynameview</string>
+    <string name="arrow">arrow</string>
+    <string name="priceview">priceview</string>
+    <string name="changepercentview">changepercentview</string>
+</resources>
